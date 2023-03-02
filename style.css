@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-width: 350px;
+    min-height: 500px;
+}
+
+.login-box {
+    background-color: rgb(5, 7, 103);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 350px;
+    min-height: 500px;
+    flex-direction: column;
+    border-radius: 10%;
+    box-shadow: -9px 7px 40px 1px rgba(25,115,148,1);
+
+}
+
+#login-button {
+    margin-top: 15px;
+    border-radius: 0%; 
+}
+
+#login-button:hover {
+    background-color: rgb(241, 245, 247);
+}
+#username, #password {
+    margin-top: 10px;
+    
+}
+
+h1 {color: aliceblue;}
